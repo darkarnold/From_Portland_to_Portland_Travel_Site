@@ -1,0 +1,17 @@
+.header__link {
+  text-decoration: none;
+  color: #fff;
+  padding-top: 12px;
+  padding-bottom: 4px;
+}
+
+.header__link:first-child {
+  margin-right: 18px;
+}
+
+@media screen and (max-width: 425px) {
+  .header__link {
+    padding-top: 10px;
+    padding-bottom: 6px;
+  }
+}
