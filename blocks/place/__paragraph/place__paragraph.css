@@ -1,25 +1,13 @@
 .place__paragraph {
-  /*grid-area: paragraph;*/
   font-size: 18px;
   font-weight: 400;
   line-height: 1.63;
-  margin-top: 48px;
   color: #fff;
-  margin-bottom: 0;
-}
-
-.place__paragraph:nth-of-type(1) {
-  grid-area: paragraph1;
+  margin: 0;
 }
 
 .place__paragraph:nth-of-type(2) {
-  font-size: 16px;
   margin-top: 27px;
-  grid-area: paragraph2;
-}
-
-.place__paragraph:nth-of-type(3) {
-  grid-area: paragraph3;
 }
 
 .place__paragraph:last-child {
@@ -32,12 +20,8 @@
   }
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 640px) {
   .place__paragraph {
-    margin: 32px 16px 0;
-  }
-
-  .place__paragraph:not(:first-child) {
-    margin-top: 25px;
+    margin: 0 16px;
   }
 }

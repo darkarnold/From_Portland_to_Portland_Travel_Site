@@ -2,11 +2,4 @@
   max-width: 100%;
   height: auto;
   grid-area: image;
-  margin-top: 48px;
-}
-
-@media screen and (min-width: 320px) and (max-width: 426px) {
-  .place__image {
-    margin-top: 32px;
-  }
 }

@@ -3,41 +3,38 @@
 @import url("./__website/place__website.css");
 @import url("./__url-heading/place__url-heading.css");
 @import url("./__link/place__link.css");
+@import url("./__description/place__description.css");
 @import url("./__paragraph/place__paragraph.css");
-@import url("./__paragraph-additional/place__paragraph-additional.css");
+@import url("./__paragraph/_font/place__paragraph_font_s.css");
 
 .place {
   display: grid;
   grid-template-columns: auto auto;
-  grid-template-rows: repeat(4, auto);
+  grid-template-rows: repeat(2, auto);
   grid-template-areas:
     "title website"
-    "image paragraph1"
-    "image paragraph2"
-    "image paragraph3";
+    "image description";
   column-gap: 40px;
+  row-gap: 48px;
   margin-top: 80px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 425px) {
+@media screen and (max-width: 1024px) {
   .place {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 49px;
+    column-gap: 32px;
   }
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .place {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: repeat(4, auto);
     column-gap: 28px;
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (max-width: 640px) {
   .place {
-    column-gap: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 49px;
   }
 }
