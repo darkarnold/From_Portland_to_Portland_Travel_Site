@@ -3,15 +3,20 @@
   color: #fff;
   padding-top: 12px;
   padding-bottom: 4px;
+  transition: opacity 2s linear;
 }
 
 .header__link:first-child {
-  margin-right: 18px;
+  padding-right: 18px;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 640px) {
   .header__link {
     padding-top: 10px;
     padding-bottom: 6px;
   }
+}
+
+.header__link:hover {
+  opacity: 0.8;
 }

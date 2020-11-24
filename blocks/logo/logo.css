@@ -1,11 +1,11 @@
 .logo {
-  min-width: 156px;
-  min-height: 36px;
+  max-width: 190px;
+  min-height: 44px;
 }
 
-@media screen and (min-width: 425px) {
+@media screen and (max-width: 640px) {
   .logo {
-    min-width: 190px;
-    min-height: 44px;
+    max-width: 156px;
+    min-height: 36px;
   }
 }
