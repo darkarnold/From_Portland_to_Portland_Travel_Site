@@ -8,11 +8,24 @@
   margin: 92px auto 0;
   padding-bottom: 24px;
   min-height: 18px;
+  max-width: 1184px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 425px) {
+@media screen and (max-width: 1024px) {
   .footer {
-    display: flex;
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    max-width: 720px;
+    margin-top: 88px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .footer {
     margin-top: 64px;
     flex-direction: column;
     min-height: 0;

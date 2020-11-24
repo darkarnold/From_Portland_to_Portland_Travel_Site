@@ -10,13 +10,13 @@
   padding-right: 18px;
 }
 
+.header__link:hover {
+  opacity: 0.8;
+}
+
 @media screen and (max-width: 640px) {
   .header__link {
     padding-top: 10px;
     padding-bottom: 6px;
   }
-}
-
-.header__link:hover {
-  opacity: 0.8;
 }
