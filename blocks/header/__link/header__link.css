@@ -3,7 +3,7 @@
   color: #fff;
   padding-top: 12px;
   padding-bottom: 4px;
-  transition: opacity 2s linear;
+  transition: opacity 0.5s linear;
 }
 
 .header__link:first-child {
