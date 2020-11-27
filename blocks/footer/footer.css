@@ -1,5 +1,6 @@
 @import url("./__menu-list/footer__menu-list.css");
 @import url("./__link/footer__link.css");
+@import url("./__link-item/footer__link-item.css");
 @import url("./__copyright/footer__copyright.css");
 
 .footer {
@@ -27,7 +28,7 @@
 
 @media screen and (max-width: 640px) {
   .footer {
-    margin-top: 64px;
+    margin: 64px 0 0 16px;
     flex-direction: column;
     min-height: 0;
   }
