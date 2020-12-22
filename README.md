@@ -15,4 +15,4 @@ This is a project about traveling across the US. It showcases the places between
 
 ## Project Link
 
-[From Portland to Portland project](https://darkarnold.github.io/web_project_3/)
+[From Portland to Portland project](https://darkarnold.github.io/From_Portland_to_Portland_Travel_Site/)
